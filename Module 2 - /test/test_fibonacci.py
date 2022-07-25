@@ -1,6 +1,15 @@
 from fibonacci import FibonacciData
+import pytest
 
-def test_divisible_by_5_given_5_should_return_True():
-    SUT = FibonacciData()
-    return_from_SUT = SUT.divisible_by_5(int_number=5)
-    assert return_from_SUT == True
+FIBONACCI = [2, 3, 5, 8, 13, 21, 34, 55, 89, 144]
+
+params = [x for x in range(2,11)]
+@pytest.mark.parametrize("iterations",params)
+def test_FibonacciData_initialized_with_N_should_generate_an_iterable_object_for_N_iterations(iterations):
+    SUT = FibonacciData(iterations)
+    iteration_counter = iterations
+    
+    for fibonacci_number, SUT_number in zip(FIBONACCI, SUT):
+        iteration_counter-=1
+        assert fibonacci_number == SUT_number
+        assert iteration_counter >= 0
