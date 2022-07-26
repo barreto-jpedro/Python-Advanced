@@ -9,7 +9,7 @@ driver = webdriver.Chrome(executable_path=DRIVER_PATH)
 #Initial page
 driver.get(FIRST_LINK)
 print(f"Main page: {driver.title}")
-print(driver)
+
 #All the links on first page
 all_elements = driver.find_elements(By.TAG_NAME, "a")
 all_links = [link.get_attribute('href') for link in all_elements]
