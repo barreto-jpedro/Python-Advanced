@@ -1,0 +1,4 @@
+This module taught us how to make some adjustments to our portfolio to make it appear more professional. 
+I've chosen to make two minor adjustments:
+    1. Modifications to the README.md file.
+    2. Include pre-commit hooks to assist me keep everything within one pattern.
