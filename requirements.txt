@@ -1,3 +1,6 @@
 selenium
 pytest
 pre-commit
+Sanic 22.6.0
+sanic-openapi
+pytest-sanic
