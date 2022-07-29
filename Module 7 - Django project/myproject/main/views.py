@@ -7,5 +7,5 @@ def homepage(request):
     return render(
         request=request,
         template_name="home.html",
-        context={"cursos": DjangoProject.objects.all},
+        context={"series": DjangoProject.objects.all},
     )
