@@ -1,0 +1,1 @@
+"Resources:\n  firstTestServer:\n    Properties:\n      ImageId: ami-00399ec92321828f5\n      InstanceType: t2.micro\n    Type: AWS::EC2::Instance\n"
