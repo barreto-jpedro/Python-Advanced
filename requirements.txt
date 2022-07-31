@@ -6,3 +6,5 @@ sanic-openapi
 pytest-sanic
 django
 troposphere
+requests
+aiohttp
