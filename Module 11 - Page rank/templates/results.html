@@ -3,8 +3,10 @@
   <body>
       <h1>Results:</h1>
       <br>
-      {% for title in titles %}
-        <h4>{{ title }}</h4>
+      <h2>We found {{links_amount}} links.</h2>
+      <br>
+      {% for link in links %}
+        <h4>{{ link }}</h4>
       {% endfor %}
   </body>
 </html>

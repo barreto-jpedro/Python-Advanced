@@ -41,9 +41,7 @@ async def operations(request):
         first_number = data["first_number"]
         second_number = data["second_number"]
         operation = data["operation"]
-        print("asdasssssssssssssssssss")
         result = await calculator(first_number, second_number, operation)
-        print("lllllllllllllllllllll")
 
         return text(f"The result is: {result}", status=200)
 
