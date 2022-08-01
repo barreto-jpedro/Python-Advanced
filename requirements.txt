@@ -10,3 +10,4 @@ requests
 aiohttp
 pygame
 Pillow
+flask
