@@ -7,12 +7,10 @@ from pygame import event
 from pygame import font
 from pygame import init
 from pygame import K_DOWN
-from pygame import K_j
 from pygame import K_l
 from pygame import K_LEFT
 from pygame import K_p
 from pygame import K_RIGHT
-from pygame import K_s
 from pygame import K_UP
 from pygame import KEYDOWN
 from pygame import QUIT
