@@ -8,3 +8,5 @@ django
 troposphere
 requests
 aiohttp
+pygame
+Pillow
